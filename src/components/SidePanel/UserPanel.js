@@ -18,7 +18,7 @@ class UserPanel extends React.Component {
             {
                 key: 1,
                 text: <span>Signed in as <strong>{this.state.user && this.state.user.displayName}</strong></span>,
-                disabled: true
+                //disabled: true
             },
             {
                 key: 2,
